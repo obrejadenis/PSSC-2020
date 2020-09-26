@@ -1,0 +1,37 @@
+Aplicatia StackOverflow a pus bazele unei comunitati solide in lumea development-ului, intrucat o buna parte din problemele intampinate pe parcursul 
+unei cariere de programator au fost soldate cu solutii de rezolvare, unele optime, altele mai putin bune, in functie de viziunea fiecaruia.
+
+Reprezentand o sursa de inspiratie la nivel global, putem deduce faptul ca paleta de functionalitati ale acestei aplicatii este una vasta, avand 
+la dispozitie tipuri de functionalitati ce difera ca si complexitate sau nivel de uz.
+
+In prima faza, aplicatia ofera o interfata bine construita din punct de vedere al design-ului, avand avantajul unui user experience optim si lipsit de 
+dificultati, aspect extrem de important in ceea ce priveste aplicatiile destinate unui numar mare de utilizatori. Ca si functionalitati, avem:
+
+-> Header-ul: -> Ofera un meniu de tip dropdown, ofertant in ceea ce priveste indexarea categoriilor majore de care utilizatorul se poate bucura in cadrul
+                 aplicatiei: 
+                    # Home - interfata afisata in momentul accesarii url-ului de baza; ofera informatii de interes major
+                    # Public - sectiune destinata intrebarilor si raspunsurilor venite de la developeri si nu numai
+                    # Find a job - sectiune destinata ofertelor ce se regasesc in momentul de fata pe piata muncii
+                    # Teams - sectiune privata in cadrul careia o echipa isi poate desfasura activitatea prin prisma discutiilor asupra unor proiecte si gasirea
+                              unor solutii de rezolvare intr-un cadru restrans si securizat
+              -> Link-ul de About - ofera informatii amanuntite despre aplicatie si comunitate
+              -> Link-ul de Products - ofera redirectionari catre mediul public al aplicatiei, mediul privat destinat echipelor, mediul destinat job-urilor etc.
+              -> Link-ul de For Teams - prezentare a modului de utilizare al aplicatiei in cadrul unei companii, punand la dispozitie ofertele aferente in cadrul
+                                        unor pachete diferite
+              -> Searchbar - ofera o metoda rapida de cautare in cadrul aplicatiei, bazandu-se pe o metoda de filtrare server-side, ce face posibila gasirea 
+                             elementelor de pe toate paginile aplicatiei prin intermediul unor query-uri atasate url-ului initial
+              -> Buton de Log In -> ofera posibilitatea de log in cu un cont existent sau prin intermediul unor conturi de Google/Git/Facebook             
+              -> Buton de Sign Up -> ofera posibilitatea de inregistrare printr-un form destinat crearii unui cont nou 
+
+-> Content-ul: -> Pagina cea mai cunoscuta a aplicatiei este cea de intrebari. Aici putem identifica 3 sectiuni dispuse pe coloana: 
+                    -> Prima sectiune prezinta optiunile descrise in meniul de tip dropdown
+                    -> Cea de-a doua sectiune vizeaza intrebarile, in dreptul fiecarei intrebari fiind afisate informatii legate de voturile oferite
+                       pentru intrebarea respectiva, numarul de raspunsuri, cat si numarul de vizualizari alea acelei intrebari. In partea de jos se poate
+                       observa componenta de paginatie, ce face posibila navigarea succesiva si nu numai pe diferite pagini de intrebari
+                    -> Sectiunea din dreapta inglobeaza informatii despre blog, oferte de job, tag-uri ce sunt atasate intrebarilor pentru o indexare mai buna si
+                       o categorie destinata celor mai cautate intrebari in momentul de fata
+               -> Accesarea unei intrebari ne ofera acelasi tip de interfata ca cea prezentata mai sus, diferenta fiind sectiunea centrala, unde se pot observa 
+                  raspunsurile oferite. Sub sectiunea de raspunsuri, utilizatorul beneficiaza de un form in care poate oferi un raspuns, avand posibilitatea de a 
+                  posta raspunsul ca utilizator inregistrat sau in anonimat.
+-> Footer-ul: -> Sectiune ce ofera rute catre toate interfetele aplicatiei. Pe langa acest aspect, dispune de informatii referitoare la date de contact si
+                 la termenii si conditiile impuse de echipa de dezvoltare
