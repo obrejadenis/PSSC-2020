@@ -8,7 +8,7 @@ namespace Test.App
 {
     class ProgramQuestion
     {
-        static void Main2(string[] args)
+        static void Main(string[] args)
         {
             List<string> tags = new List<string> {"Redux", "Typescript"};
             var cmd = new PostQuestionCmd("Do we need an interface for our initialValues in Redux?", "Can someone give me an example?", tags);
